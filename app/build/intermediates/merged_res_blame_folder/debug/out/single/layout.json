@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.meucurso.app-mergeDebugResources-30:/layout/activity_sobre_curso.xml",
+        "source": "com.example.meucurso.app-main-33:/layout/activity_sobre_curso.xml"
+    },
+    {
+        "merged": "com.example.meucurso.app-mergeDebugResources-30:/layout/activity_disciplinas.xml",
+        "source": "com.example.meucurso.app-main-33:/layout/activity_disciplinas.xml"
+    },
+    {
+        "merged": "com.example.meucurso.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.meucurso.app-main-33:/layout/activity_main.xml"
+    }
+]

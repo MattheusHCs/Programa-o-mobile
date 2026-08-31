@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Android_Compartilhado\\.gradle\\daemon\\8.4\\com.example.meucurso.app-merged_res-31:\\drawable_imagem_curso.xml.flat",
+        "source": "C:\\Android_Compartilhado\\.gradle\\daemon\\8.4\\com.example.meucurso.app-main-33:\\drawable\\imagem_curso.xml"
+    },
+    {
+        "merged": "C:\\Android_Compartilhado\\.gradle\\daemon\\8.4\\com.example.meucurso.app-merged_res-31:\\layout_activity_disciplinas.xml.flat",
+        "source": "C:\\Android_Compartilhado\\.gradle\\daemon\\8.4\\com.example.meucurso.app-main-33:\\layout\\activity_disciplinas.xml"
+    },
+    {
+        "merged": "C:\\Android_Compartilhado\\.gradle\\daemon\\8.4\\com.example.meucurso.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Android_Compartilhado\\.gradle\\daemon\\8.4\\com.example.meucurso.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Android_Compartilhado\\.gradle\\daemon\\8.4\\com.example.meucurso.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Android_Compartilhado\\.gradle\\daemon\\8.4\\com.example.meucurso.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.meucurso.app-merged_res-31:/drawable_imagem_curso.xml.flat",
+        "source": "com.example.meucurso.app-main-33:/drawable/imagem_curso.xml"
+    },
+    {
+        "merged": "C:\\Android_Compartilhado\\.gradle\\daemon\\8.4\\com.example.meucurso.app-merged_res-31:\\layout_activity_sobre_curso.xml.flat",
+        "source": "C:\\Android_Compartilhado\\.gradle\\daemon\\8.4\\com.example.meucurso.app-main-33:\\layout\\activity_sobre_curso.xml"
+    },
+    {
+        "merged": "C:\\Android_Compartilhado\\.gradle\\daemon\\8.4\\com.example.meucurso.app-merged_res-31:\\drawable_logo_instituicao.xml.flat",
+        "source": "C:\\Android_Compartilhado\\.gradle\\daemon\\8.4\\com.example.meucurso.app-main-33:\\drawable\\logo_instituicao.xml"
+    }
+]

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cinza_claro">
+
+    <!-- Barra superior com botão voltar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/azul_primario"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btnVoltarDisciplinas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/azul_escuro"
+            android:textColor="@color/branco"
+            android:text="@string/btn_voltar" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:text="@string/titulo_disciplinas"
+            android:textColor="@color/branco"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Card 1 -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/CardDisciplina">
+                <LinearLayout style="@style/CardDisciplinaConteudo">
+                    <TextView style="@style/CardDisciplinaTitulo" android:text="@string/disc_programacao" />
+                    <TextView style="@style/CardDisciplinaDescricao" android:text="@string/disc_programacao_desc" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Card 2 -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/CardDisciplina">
+                <LinearLayout style="@style/CardDisciplinaConteudo">
+                    <TextView style="@style/CardDisciplinaTitulo" android:text="@string/disc_bd" />
+                    <TextView style="@style/CardDisciplinaDescricao" android:text="@string/disc_bd_desc" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Card 3 -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/CardDisciplina">
+                <LinearLayout style="@style/CardDisciplinaConteudo">
+                    <TextView style="@style/CardDisciplinaTitulo" android:text="@string/disc_eng_sw" />
+                    <TextView style="@style/CardDisciplinaDescricao" android:text="@string/disc_eng_sw_desc" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Card 4 -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/CardDisciplina">
+                <LinearLayout style="@style/CardDisciplinaConteudo">
+                    <TextView style="@style/CardDisciplinaTitulo" android:text="@string/disc_web" />
+                    <TextView style="@style/CardDisciplinaDescricao" android:text="@string/disc_web_desc" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Card 5 -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/CardDisciplina">
+                <LinearLayout style="@style/CardDisciplinaConteudo">
+                    <TextView style="@style/CardDisciplinaTitulo" android:text="@string/disc_mobile" />
+                    <TextView style="@style/CardDisciplinaDescricao" android:text="@string/disc_mobile_desc" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Card 6 -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/CardDisciplina">
+                <LinearLayout style="@style/CardDisciplinaConteudo">
+                    <TextView style="@style/CardDisciplinaTitulo" android:text="@string/disc_ia" />
+                    <TextView style="@style/CardDisciplinaDescricao" android:text="@string/disc_ia_desc" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
