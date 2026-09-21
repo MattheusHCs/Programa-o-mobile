@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_primario">#1A3C6E</color>
+    <color name="azul_escuro">#0F2647</color>
+    <color name="laranja_destaque">#FF7A00</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="cinza_claro">#F2F4F7</color>
+    <color name="cinza_texto">#4A4A4A</color>
+    <color name="card_background">#FFFFFF</color>
+</resources>

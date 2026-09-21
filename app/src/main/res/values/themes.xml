@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.MeuCurso" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/azul_primario</item>
+        <item name="colorPrimaryDark">@color/azul_escuro</item>
+        <item name="colorAccent">@color/laranja_destaque</item>
+        <item name="android:statusBarColor">@color/azul_escuro</item>
+    </style>
+</resources>

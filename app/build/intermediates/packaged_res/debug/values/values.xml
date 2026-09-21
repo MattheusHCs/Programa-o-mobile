@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_escuro">#0F2647</color>
+    <color name="azul_primario">#1A3C6E</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="cinza_claro">#F2F4F7</color>
+    <color name="cinza_texto">#4A4A4A</color>
+    <color name="laranja_destaque">#FF7A00</color>
+    <string name="app_name">Meu Curso</string>
+    <string name="btn_conheca_curso">CONHEÇA O CURSO</string>
+    <string name="btn_disciplinas">DISCIPLINAS</string>
+    <string name="btn_voltar">VOLTAR</string>
+    <string name="descricao_curta">Um curso completo para formar profissionais prontos para o mercado de tecnologia, unindo teoria e prática desde o primeiro semestre.</string>
+    <string name="descricao_detalhada">O Curso de Desenvolvimento de Sistemas prepara o aluno para atuar com programação, banco de dados, engenharia de software e desenvolvimento de aplicações web e mobile. Ao longo da formação, o estudante participa de projetos práticos, laboratórios e desafios reais de mercado, desenvolvendo autonomia técnica e capacidade de resolver problemas com tecnologia.</string>
+    <string name="disc_bd">Banco de Dados</string>
+    <string name="disc_bd_desc">Modelagem, SQL e administração de bancos de dados relacionais.</string>
+    <string name="disc_eng_sw">Engenharia de Software</string>
+    <string name="disc_eng_sw_desc">Processos, metodologias ágeis e qualidade de software.</string>
+    <string name="disc_ia">Inteligência Artificial</string>
+    <string name="disc_ia_desc">Fundamentos de IA, machine learning e suas aplicações.</string>
+    <string name="disc_mobile">Desenvolvimento Mobile</string>
+    <string name="disc_mobile_desc">Criação de aplicativos Android com Kotlin.</string>
+    <string name="disc_programacao">Programação</string>
+    <string name="disc_programacao_desc">Lógica, algoritmos e linguagens de programação aplicadas.</string>
+    <string name="disc_web">Desenvolvimento Web</string>
+    <string name="disc_web_desc">Front-end, back-end e integração de sistemas web.</string>
+    <string name="duracao_label">Duração:</string>
+    <string name="duracao_valor">3 anos (6 semestres)</string>
+    <string name="modalidade_label">Modalidade:</string>
+    <string name="modalidade_valor">Presencial e Híbrido</string>
+    <string name="nome_curso">Curso de Desenvolvimento de Sistemas</string>
+    <string name="nome_instituicao">Instituição Exemplo de Ensino</string>
+    <string name="titulo_disciplinas">Disciplinas do Curso</string>
+    <string name="titulo_sobre">Sobre o Curso</string>
+    <style name="CardDisciplina">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+    </style>
+    <style name="CardDisciplinaConteudo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="CardDisciplinaDescricao">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textColor">@color/cinza_texto</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="CardDisciplinaTitulo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/azul_primario</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.MeuCurso" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/azul_primario</item>
+        <item name="colorPrimaryDark">@color/azul_escuro</item>
+        <item name="colorAccent">@color/laranja_destaque</item>
+        <item name="android:statusBarColor">@color/azul_escuro</item>
+    </style>
+</resources>

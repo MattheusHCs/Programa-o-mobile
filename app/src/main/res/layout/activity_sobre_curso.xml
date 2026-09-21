@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgCurso"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/imagem_curso"
+            android:contentDescription="@string/nome_curso" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tvTituloSobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_sobre"
+                android:textColor="@color/azul_primario"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvNomeCursoSobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/nome_curso"
+                android:textColor="@color/azul_escuro"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Linha: Duração -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/duracao_label"
+                    android:textStyle="bold"
+                    android:textColor="@color/cinza_texto" />
+
+                <TextView
+                    android:id="@+id/tvDuracao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/duracao_valor"
+                    android:textColor="@color/cinza_texto" />
+            </LinearLayout>
+
+            <!-- Linha: Modalidade -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/modalidade_label"
+                    android:textStyle="bold"
+                    android:textColor="@color/cinza_texto" />
+
+                <TextView
+                    android:id="@+id/tvModalidade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/modalidade_valor"
+                    android:textColor="@color/cinza_texto" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvDescricaoDetalhada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/descricao_detalhada"
+                android:textColor="@color/cinza_texto"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp" />
+
+            <!-- Botões lado a lado -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="32dp">
+
+                <Button
+                    android:id="@+id/btnVoltar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@color/cinza_texto"
+                    android:textColor="@color/branco"
+                    android:text="@string/btn_voltar" />
+
+                <Button
+                    android:id="@+id/btnDisciplinasSobre"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:backgroundTint="@color/laranja_destaque"
+                    android:textColor="@color/branco"
+                    android:text="@string/btn_disciplinas" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
